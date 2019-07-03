@@ -36,7 +36,7 @@ export interface TextItem {
     fontName: string;
 }
 
-export interface Props {
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {
     /**
      * Defines custom class name(s), that will be added to rendered element.
      * @default 'react-pdf__Page'
